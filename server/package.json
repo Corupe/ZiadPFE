@@ -1,0 +1,22 @@
+{
+	"author": "",
+	"dependencies": {
+		"axios": "^1.6.8",
+		"express": "^4.19.2",
+		"mongodb": "^6.5.0",
+		"mongoose": "^8.3.3",
+		"nodemon": "^3.1.0",
+		"side-channel": "^1.0.6"
+	},
+	"description": "",
+	"keywords": [],
+	"license": "ISC",
+	"main": "index.js",
+	"name": "server",
+	"scripts": {
+		"dev": "nodemon index.js",
+		"serve": "node index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"version": "1.0.0"
+}
